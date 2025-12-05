@@ -1,5 +1,4 @@
-import MyButton from "./MyButton";
-
+import ButtonProject from "../Componants/ButtonProject"
 export default function Navbar() {
     return (
         <div className=" css w-full  flex flex-col gap-30 pt-20 ">
@@ -9,9 +8,8 @@ export default function Navbar() {
                     <p className="font-Sara text-[#f93a4a]  text-5xl animate__animated animate__flipInX  animate__slower"> Front-End-Developer</p>
                 </div>
             </div>
-                        <MyButton />
-            
-            </div>
+            <ButtonProject />
+        </div>
 
 
     )
